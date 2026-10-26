@@ -1,0 +1,10 @@
+node_modules/
+data/*
+!data/.gitkeep
+.env
+.env.*
+!.env.example
+.DS_Store
+.vercel/
+.agents/
+skills-lock.json

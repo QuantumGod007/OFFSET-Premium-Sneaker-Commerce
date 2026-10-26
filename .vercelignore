@@ -1,0 +1,11 @@
+.git
+.env*
+node_modules
+.tests
+tests
+data
+.agents
+skills-lock.json
+Dockerfile
+.dockerignore
+README.md

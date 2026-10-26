@@ -1,0 +1,23 @@
+{
+  "name": "offset-sneaker-commerce",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "OFFSET — a curated sneaker store and Express server-side validation practical.",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.18.0",
+    "express": "5.2.1",
+    "express-validator": "7.3.1"
+  },
+  "devDependencies": {
+    "supertest": "7.2.2"
+  }
+}
